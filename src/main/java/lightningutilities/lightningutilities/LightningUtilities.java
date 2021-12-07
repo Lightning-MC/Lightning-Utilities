@@ -11,6 +11,7 @@ public final class LightningUtilities extends JavaPlugin {
         getServer().getConsoleSender().sendMessage("Hello, World!");
         getCommand("discord").setExecutor(commands);
         getCommand("web").setExecutor(commands);
+        getCommand("donate").setExecutor(commands);
         getServer().getConsoleSender().sendMessage("Loaded Lightning-Utilities");
     }
 

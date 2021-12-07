@@ -1,6 +1,5 @@
 package lightningutilities.lightningutilities;
 
-
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -21,6 +20,10 @@ public class basiccommands implements CommandExecutor {
         }
         if (command.getName().equalsIgnoreCase("web")){
             player.sendMessage("web.lightning-mc.xyz");
+            return true;
+        }
+        if (command.getName().equalsIgnoreCase("donate")){
+            player.sendMessage("https://www.patreon.com/Lightning_mc");
             return true;
         }
 
