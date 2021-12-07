@@ -1,0 +1,17 @@
+name: Lightning Utilities
+version: '${project.version}'
+main: lightningutilities.lightningutilities.LightningUtilities
+api-version: 1.18
+load: STARTUP
+authors: [ JTMcQuigg ]
+description: Utilities for Lightning-MC
+website: web.Lightning-mc.xyz
+Commands:
+    discord:
+      description: sends discord link
+      usage: /discord
+      aliases: []
+    web:
+      descreiption: sends link to website
+      usahe: /web
+      aliases: []
