@@ -26,7 +26,10 @@ public class basiccommands implements CommandExecutor {
             player.sendMessage("https://www.patreon.com/Lightning_mc");
             return true;
         }
-
+        if (command.getName().equalsIgnoreCase("helloworld")){
+            player.sendMessage("HELLO WORLD BLITZ");
+            return true;
+        }
         return true;
     }
 }

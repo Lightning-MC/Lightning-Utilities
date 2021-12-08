@@ -15,3 +15,11 @@ Commands:
       descreiption: sends link to website
       usahe: /web
       aliases: []
+    donate:
+      descreiption: sends link to website
+      usahe: /donate
+      aliases: []
+    helloworld:
+      descreiption: yells at blitz
+      usahe: /helloworld
+      aliases: []
